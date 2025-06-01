@@ -1,0 +1,14 @@
+requests
+PyPDF2
+pdfplumber
+PyMuPDF
+Pillow
+pytesseract
+faiss-cpu
+numpy
+pandas
+tqdm
+python-dotenv
+tiktoken
+sentence-transformers
+dotenv
