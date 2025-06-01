@@ -114,6 +114,11 @@ data/vectorstore/
 data/*.json
 !data/sample_*.json
 
+# Documentos y archivos de datos específicos
+data/documents/
+data/vectorstore/
+data/dpo_dataset.json
+
 # Logs
 *.log
 logs/
