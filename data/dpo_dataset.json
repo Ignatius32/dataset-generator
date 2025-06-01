@@ -1,0 +1,827 @@
+{
+  "dataset_info": {
+    "generation_timestamp": "2025-06-01T14:12:19.885494",
+    "generator_version": "AdvancedDatasetGenerator_v1.0",
+    "total_samples": 40,
+    "quality_settings": {
+      "min_query_score": 0.7,
+      "min_response_score": 0.75,
+      "min_answer_quality_score": 0.2
+    },
+    "pipeline_config": {
+      "query_generation_modes": [
+        "factual",
+        "analytical"
+      ],
+      "difficulty_levels": [
+        "basic",
+        "intermediate",
+        "advanced"
+      ],
+      "final_queries_per_document": 2,
+      "max_context_length": 800
+    }
+  },
+  "samples": [
+    {
+      "query": "¿Qué organización dentro de la Universidad se encargó de mejorar la gestión académica según el texto?",
+      "good_response": "Según el contexto proporcionado, **la Secretaría Académica de la Universidad Nacional del Comahue** es la organización responsable de mejorar la gestión académica. Este rol se establece en **Artículo 4º** del Reglamento de Administración Académica, donde se determina que esta secretaría está encargada de gestionar las propuestas para futuras modificaciones del reglamento aprobado en el Artículo 2, así como los procedimientos asociados. Además, el texto menciona que la norma se implementará obligatoriamente a través de los procedimientos aprobados en la **Resolución Rectoral Nº 142/2017**, lo que confirma su responsabilidad operativa en la gestión y ejecución de las modificaciones académicas.\n\nEn resumen, la Secretaría Académica actúa como la entidad principal encarg",
+      "bad_response": "The text mentions \"la puesta en vigencia del Reglamento de Administr",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0000",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:05:34.417976",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Cuál es la finalidad principal de la Ordenanza Nº 1090 2013 según el texto?",
+      "good_response": "La **finalidad principal de la Ordenanza Nº 1090 2013** es garantizar la **transparencia en el proceso académico** y la **equidad en la evaluación del desempeño estudiantil**, con el objetivo de permitir a los estudiantes revisar sus resultados y participar activamente en su aprendizaje continuo. Este documento se centra en tres aspectos clave:\n\n1. **Revisión y devolución de resultados**:  \n   Según **Artículo 27º**, el personal docente debe mostrar los exámenes aprobados y desaprobados a los estudiantes, con la devolución correspondiente. Los exámenes desaprobados deben ser entregados **al menos dos días hábiles antes de la instancia de recuperación**, lo que facilita a los estudiantes prepararse para la prueba de repaso. Esta medida asegura que los estudiantes tengan acceso a sus resultados para rectificar",
+      "bad_response": "se of informing students about their exams and results. I need to make sure to stick to the text provided and not add extra information. The answer should be a short sentence, maybe a couple of words.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0001",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "intermediate",
+        "query_score": 0.7550000000000001,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:07:33.321800",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "Qué papel desempeña la Secretaría de Planeamiento y Desarrollo Institucional según el texto?",
+      "good_response": "Según el contexto proporcionado, la **Secretaría de Planeamiento y Desarrollo Institucional** desempeña un rol central en la coordinación y gestión de procesos académicos clave, como la organización de exámenes finales, la regularización de cursos, y la determinación de horarios y espacios para evaluaciones. Su función principal es asegurar que las normas académicas se implementen de manera uniforme",
+      "bad_response": "is likely the institution responsible for planning and institutional development. The role would be to oversee the regularization of the curriculum and ensure that it is valid for 3 years. The user is",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0002",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:09:02.759399",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Cuál es el propósito principal del Decreto emanado por el Consejo Superior de la Universidad Nacional del Comahue según el texto?",
+      "good_response": "El Decreto emanado por el Consejo Superior de la Universidad Nacional del Comahue, según el texto proporcionado, tiene como **propósito principal establecer y garantizar la aplicación del Reglamento de Administración Académica para carreras de pregrado y grado, modalidad presencial**, con efectos desde abril de 2019.  \n\n**Detalles clave:**  \n1. **Implementación del reglamento**: El artículo 3 indica que este reglamento se pone en vigor a partir de abril de 2019, lo que implica su aplicación obligatoria en todas las carreras educativas de pregrado y grado, en la modal",
+      "bad_response": "So, the decree is about setting the implementation of the academic administrative regulations for pregrado and grado programs, specifically the presencial modalidad. The main purpose here is to establish the regulations for the academic administrative procedures for these programs. The user wants a very brief answer, so I need to capture the key point: the",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0003",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:11:07.390935",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Cuál es el propósito principal de laOrdenanza Nº 640 1996 según el texto?",
+      "good_response": "El propósito principal de la Ordenanza Nº 640 1996, según el texto proporcionado, es **registrar y gestionar de forma sistemática la evaluación académica** de los estudiantes, garantizando transparencia, precisión y cumplimiento de procedimientos estudiantiles.  \n\n### Detalles clave:  \n1. **Comunicación de resultados**:  \n   - Artículo 27º establece que el personal docente debe mostrar los exámenes aprobados y desaprobados a los estudiantes, con la devolución correspondiente. Los exámenes desaprobados",
+      "bad_response": "summarize that the main purpose is to ensure the return of exams and results to students. I need to make sure I don't include extra information and keep it to the point. Let me check the context again",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0003",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.7650000000000001,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:11:37.998467",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de políticas se mencionan como parte de los objetivos del grado de la Universidad Nacional del Comahue?",
+      "good_response": "Los objetivos del grado de la Universidad Nacional del Comahue, específicamente relacionados con su desarrollo académico y gestión administrativa, se fundamentan en tres áreas clave que se abordan mediante políticas estratégicas:  \n\n1. **In",
+      "bad_response": "ded for academic management. The \"At\" part is likely a typo or incomplete, so I'll assume the user wants the policies related to administrative circuits for academic management. The answer should be a",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0006",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.8,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:15:44.974680",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Cuál es el propósito de considerar las especifícidades organizaciones propias de cada unidad académica según el texto?",
+      "good_response": "El propósito de considerar las especificidades organizativas de cada unidad académica, según el texto, es garantizar un marco estructurado y adaptado a las necesidades específicas de cada programa educativo. Esta atención a las particularidades de cada unidad permite:  \n\n1. **Establecer relaciones interinstitucionales efectivas**: Las unidades académicas deben definir claramente las dinámicas entre sí y con otros entes institucionales, como los centros de enseñanza o empresas, para lograr que las prácticas y residencias sean coherentes con el objetivo de formación profesional.  \n2. **Validar el desarrollo de competencias profesionales**: A través de la evaluación por parte del docente",
+      "bad_response": "El propósito es garantizar que los estudiantes se vinculan con el contexto",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0006",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.37,
+        "quality_difference": 0.63,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:16:15.366861",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué requisito es necesario para poder presentar una solicitud de ingreso a la Universidad Nacional del Comahue según el artículo mencionado?",
+      "good_response": "So the answer would have to state that the provided context doesn't mention specific admission requirements, but rather focuses on the regulation's implementation and modification procedures. However, the user might expect an answer even if it's incomplete. Alternatively, maybe the user made a mistake in providing the context. In that case,",
+      "bad_response": "Wait, the article is about the regulation's implementation, not the application. The requirement for",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0007",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:17:41.502985",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿En qué contexto se consideran las 'actividades académicas' según el texto proporcionado?",
+      "good_response": "Según el contexto proporcionado, las **actividades académicas** se consideran dentro del **proceso educativo y reglamentario de la Universidad**, específicamente en el marco de la gestión de cursos y evaluaciones. Estas actividades incluyen:\n\n1. **Responsabilidad del docente**: El docente a cargo de la asignatura es responsable de garantizar la conducción adecuada de las actividades académicas, desde su planificación hasta la aplicación de las evaluaciones.  \n   *Ejemplo*: El docente debe organizar clases, dictar contenidos y supervisar la realización de tareas o exámenes.\n\n2. **Regularización del cursado**: Las actividades académicas se regulan con una vigencia de tres años a partir de la fecha de aprobación del curso. Esta regla afecta tanto el pl",
+      "bad_response": "original context is in Spanish, but the user has provided a part of it. The user is asking for a short, brevemente (brief) answer. The context mentions the teacher's responsibility, regularization of",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0007",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:18:05.880053",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué significa 'preinscritos' según el Artículo 11º del Texto?",
+      "good_response": "Alternatively, maybe \"preinscritos\" is part of the terminology used in the context. Since the user provided the context up to Article 29, and the question is about Article 11, which isn't present, there might be an issue. However, if I have to answer based on the given information, perhaps the closest related term is \"cursada de la asignatura,\" which refers to the study of a subject, and \"preinscritos\" could mean students who are enrolled in the subject. But the user wants the answer based on the specific context. Since the context doesn't include Article",
+      "bad_response": "cle 27º. The user is asking about Article 11º, which is about the course of the subject. The user is asking what 'preinscritos' means. The context provided is about the teacher showing exams, which is",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0010",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.8500000000000001,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:22:14.193234",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué se define como 'preinscritos' según el artículo?",
+      "good_response": "I should check if there's any mention of enrollment dates or stages. The articles mention deadlines for exams and re-exams, which might relate to when students are enrolled. So, \"preinscritos\" could be students who have been registered but are still undergoing the evaluation phase, like those who have taken exams but haven't received their results yet. In conclusion, even though the term isn't explicitly in the context, based on the academic procedures described, \"preinscritos\" likely refers to students who are pre-enrolled or in the early stages of their academic journey, requiring submission of",
+      "bad_response": "r the article. The article 27º talks about showing exams to students. The user is asking what \"preinscritos\" is. Wait, \"preinscritos\" is a Spanish term. Let me think. \"Preinscritos\" in Spanish is \"pre",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0010",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "intermediate",
+        "query_score": 0.8500000000000001,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:22:38.210054",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué ocurre si un alumno no cumple con la fecha límite para presentar el título de nivel medio?",
+      "good_response": "Si un alumno no cumple con la fecha límite para presentar el título de nivel medio, se prohíbe su obtención hasta que se concluya el proceso de regularización de sus cursos académicos. Según el contexto, la **regularización del cursado** tiene una **validad de tres (tres) años a partir de la fecha de aprobación del mismo**, lo que implica que los alumnos que no completan sus obligaciones dentro del plazo establecido pueden solicitar la **reaprobación de las asignaturas** mediante un proceso formal.  \n\nPara asignaturas cursadas en el **primer semestre**, el turno ordinario de exámenes se realiza en **julio-agosto**, mientras que para las asignaturas del **segundo semestre o anuales**, el turno es en **diciembre y febrero-marzo**. En caso de no cumplir con el plazo, el alumno podría ser **revisado por el docente a cargo de la asignatura**",
+      "bad_response": "idity of 3 years suggests that if the deadline is not met, the diploma might not be recognized, and the student might need to reapply or undergo regularización. The answer should be brief, so the user",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0011",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:24:04.167372",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Por qué se prohíbe a los estudiantes inscritos condicionales tomar exámenes?",
+      "good_response": "La prohibición de que los estudiantes inscritos condicionales tomen exámenes se basa en reglas académicas diseñadas para garantizar la validez y la transparencia de los resultados, así como la adherencia a los criterios de evaluación establecidos por la institución educativa. Según el contexto proporcionado:\n\n1. **Regularización del cursado**: Los estudiantes inscritos condicionalmente suelen estar en fase de regularización de sus créditos académicos. Esta etapa implica que aún no han cumplido con todos los requisitos para obtener un título o certificación, como completar todas las asignaturas obligatorias o superar evaluaciones previas. La regulación tiene una validez de tres años a partir de la fecha de aprobación, lo que significa que los estudiantes deben esperar hasta que concluya este período antes de poder realizar exá",
+      "bad_response": "n. The prohibition is likely due to the teacher's responsibility and the validity of the regularización. The answer should be in Spanish, so the response should be in Spanish, short, and to the point.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0013",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.815,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:27:46.547913",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de calificaciones se mencionan como opciones posibles para los cursados según el artículo 22º del texto?",
+      "good_response": "Según el artículo 22º del texto proporcionado, las calificaciones mencionadas como opciones posibles para los cursados son **exámenes aprobados y desaprobados**. Este artículo se refiere específicamente a la devolución de calificaciones asociadas a los exámenes realizados durante el cursado, donde se diferencian claramente entre aquellos que resultaron aprobados y aquellos que no lo hicieron.  \n\nEl artículo 27º detalla que el personal docente debe mostrar estos exámen",
+      "bad_response": "ned. The user's context is a bit unclear, but the possible grades mentioned in the context of exams approved and unapproved. So the possible grades would be approved and unapproved. The user is asking",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0014",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:29:27.757579",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de espacios curriculares se mencionan como 'cursos especiales' según el artículo?",
+      "good_response": "Según el artículo, los **espacios curriculares** mencionados como **\"cursos especiales\"** incluyen los siguientes tipos:\n\n1. **Proyectos**: Actividades concretas que permiten aplicar conocimientos teóricos en contextos reales.  \n2. **Seminarios**: Sesiones formativas donde se discuten temas académicos en profundidad, generalmente dirigidas a estudiantes avanzados.  \n3. **Talleres**: Entornos prácticos donde se desarrollan habilidades específicas mediante actividades colaborativas o experimentos.  \n4. **Prácticas**: Experiencias realizadas en entornos laborales o profesionales, con objetivos de aplicación de conocimientos.  \n5. **Residencias**: Permanentes o temporales en instituciones educativas, empresas o entornos socioambientales, con fines de formación integral.  \n\nEstos cursos especiales están diseñados para complementar el currículo habitual, promoviendo la autonomía del estudiante y la articulación entre teoría y práctica. Aunque el artículo también menciona **trabajos finales de carreras**, como tesis, tesinas o proyectos, estos son considerados dentro de la categoría más amplia de **",
+      "bad_response": "he user's context is incomplete. The answer should be the categories mentioned, but since the context is incomplete, the answer should be the categories listed in the article. The user's context is in",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0015",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:31:40.644744",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipos de espacios curriculares están mencionados en el artículo?",
+      "good_response": "Según el artículo, los tipos de espacios curriculares mencionados son:\n\n1. **Cursos regulares**:  \n   Se refieren a las asignaturas tradicionales que forman parte del plan de estudio de una carrera. Estos incluyen materias teóricas y prácticas necesarias para lograr el título académico.\n\n2. **Cursos especiales**:  \n   Son actividades adicionales como proyectos, seminarios, talleres, prácticas y residencias. Estos espacios curriculares están diseñados para complementar el aprendizaje mediante experiencias prácticas o investigación, según el programa académico.\n\n3. **Trabajos finales de carreras, tesis, tesinas y proyectos** (según corresponda):  \n   Estos se consideran como espacios curriculares específicos que se aplican en ciertas carreras. Pueden incluir trabajos de grado, tesis de grado, tesinas o proyectos de investigación, dependiendo de la modalidad académ",
+      "bad_response": "del título correspondiente. Estos espacios curriculares se clasifican en: a) cursos re...\" but the \"cursos re...\" is incomplete. The user might have a typo, maybe \"cursos re...\" is a typo for \"cursos",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0015",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "intermediate",
+        "query_score": 0.8500000000000001,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.7,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:32:04.875741",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "Según el artículo 27º, ¿cuántos días hábiles mínimos deben transcurrir antes de la instancia de recuperación para ver los exámenes desaprobados?",
+      "good_response": "Según el artículo 27º, **deben transcurrir al menos dos días hábiles** antes de la instancia de recuperación para que los estudiantes puedan ver los exámenes desaprobados. Este requisito se establece como parte de la normativa educativa para garantizar que los estudiantes tengan tiempo suficiente para revisar sus resultados y acceder a las medidas de recuperación oportunas.  \n\n### Detalles importantes:\n1. **Días há",
+      "bad_response": "but the context doesn't give a number. Wait, the user is asking about the days before the instance, but the context doesn't mention the days. Wait, the user is asking about the minimum days before the",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0017",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:34:49.655784",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué condición deben cumplir los estudiantes para acceder a la modalidad de aprobación por promoción según el artículo 31?",
+      "good_response": "Según el artículo 31, los estudiantes deben cumplir ciertas condiciones para acceder a la modalidad de aprobación por promoción, que implica la evaluación de sus actividades prácticas y residenciales por parte del docente responsable. Estas condiciones incluyen:\n\n1. **Cumplimiento de las obligaciones académicas**: Los estudiantes deben haber realizado y presentado sus prácticas y residencias según los plazos establecidos por las Unidades Académicas. Estas actividades deben estar calificadas como parte del proceso de formación profesional, lo cual se garantiza mediante la evaluación realizada por el",
+      "bad_response": "he academic performance and the practical training. I need to condense this into a short answer, maybe a couple of sentences. The user wants brevity, so I need to be concise. The answer should mention",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0018",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.7,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:36:39.934367",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué condición debe cumplirse para acceder a la aprobación por promoción según el artículo 31?",
+      "good_response": "Según el contexto proporcionado, **no se menciona específicamente el artículo 31** ni sus requisitos para acceder a la aprobación por promoción. Las normas relacionadas con la promoción están desarrolladas en otros artículos (Artículos 27, 28 y 29), pero no hay información directa sobre los criterios o condiciones que deben cumplirse para obtener la promoción.  \n\n### Resumen de lo que sí está claro:\n- **Artículo 27**: Los profesores deben mostrar los resultados de los exámenes aprobados y desaprobados a los estudiantes, con los exámenes desaprobados disponibles al menos dos días hábiles antes de la recuperación.  \n- **Artículo 28**: El docente responsable de la asignatura registra las calificaciones en el sistema académ",
+      "bad_response": "user might have a mistake, but the context is about Article 27. The user might have a typo. The question is about Article 31, but the context is about 27. The user might have provided the context for",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0018",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:37:04.041448",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué significa 'pérdida de la opción de aprobación de la asignatura por promoción' según el texto?",
+      "good_response": "La expresión **\"pérdida de la opción de aprobación de la asignatura por promoción\"** se refiere a la situación en la que un estudiante **perdona la oportunidad de aprobar una asignatura mediante un proceso de recuperación o reexamen**, lo cual es necesario para obtener la **promoción",
+      "bad_response": "s opportunity is probably when a student is not promoted and loses the chance to pass the subject. The user wants a brief answer, so I need to translate that into the term. The answer is that it means",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0019",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:38:42.230682",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué significa 'pérdida de la opción de aprobación de la asignatura por promoción' según el artículo d)?",
+      "good_response": "Alternatively, maybe \"pérdida de la opción de aprobación\" refers to the loss of the right to pass a subject, which could happen if the student fails the exams and doesn't get a re-exam. According to Article 27, exams are shown within two days before the re-exam. If the student doesn't take the re-exam, they might lose the opportunity to pass. But the context doesn't explicitly say that. But since the user included the articles, I should focus on those. The key points are that teachers must show approved and failed exams, with a deadline for re-exams. If a student doesn't take the re-exam, they might not have a chance to pass. Therefore, \"pérdida de la opción de aprobación\" would mean losing the opportunity to pass the subject because they didn't participate in the re-exam.",
+      "bad_response": "tions the teacher showing exam results, and the students' devolución. The key term here is \"pérdida de la opción de aprobación de la asignatura por promoción.\" The user is asking what this term means.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0019",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:39:12.834437",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de régimen de exámenes está permitido para las asignaturas cursadas durante el segundo semestre?",
+      "good_response": "Según el contexto proporcionado, **el régimen de exámenes ordinario** es el permitido para las asignaturas cursadas durante el segundo semestre (o cursos anuales). Este régimen se realiza en **diciembre y febrero-marzo**, según la normativa establecida.  \n\nAdicionalmente, se menciona que los exámenes finales son **públicos** y deben realizarse en los espacios designados por la Unidad Académica, excepto en casos donde la índole de la asignatura o los trabajos asociados requieran un formato diferente.  \n\nEste régimen de exámenes ordinario",
+      "bad_response": "sking for a brief answer, so the answer is that the regularización is allowed, which is a type of examination regime. The answer should be concise, so the answer is the regularización regime. The user",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0020",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.7,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:40:43.728152",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de turnos de exámenes están disponibles según la ordenanza para asignaturas cursadas durante el primero y segundo semestres?",
+      "good_response": "But the user specifically asks about \"turns of exams,\" which might relate to the procedures or types of assessments required for course credits. The context doesn't detail specific exam types beyond colloquiums and grade conversions, so the answer needs to use the info given, even if it's not exhaustive. I should structure the answer by explaining that according to the ordinance, the main types of exams involved are colloquiums for equivalence recognition and grade conversion processes. Also note that regular exams for the first and second semesters are part of the standard academic requirements. However, since the context doesn",
+      "bad_response": "nd the recognition for equivalencias. But the context mentions the recognition of subjects exceeding percentages in artículos 57 and 58. The answer should probably list the turnos and the recognition.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0020",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:41:14.431849",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué es lo que implica la aprobación de una asignatura según el texto?",
+      "good_response": "Según el texto proporcionado, la **aprobación de una asignatura** se refiere al proceso formal de verificar y certificar el desempeño académico de los estudiantes en relación con una materia específica. Este proceso incluye dos aspectos principales:\n\n1. **Verificación de resultados**:  \n   El docente responsable de la asignatura debe mostrar **exámenes aprobados y desaprobados** a los estudiantes, acompañados de la **devolución correspondiente** (como fechas, notas o comentarios). En particular, los exámenes desaprobados deben ser presentados",
+      "bad_response": "s and the feedback. I need to make sure the answer is concise and directly relates to the text provided. The answer should mention the return of exams and the corresponding feedback as the implication",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0021",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.8049999999999999,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:42:49.898058",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué significa el término 'régimen de proyecto' según el artículo 34°?",
+      "good_response": "Since the user requires an answer based on the provided context, even if there's a missing article, I should explain that the term isn't covered in the given text. However, maybe the user expects me to infer based on the structure. For example, if Article 34° is about project management or project-based learning, then the regime de proyecto would refer to the structured process of managing projects, including planning, execution, monitoring, and evaluation. But this is speculative. Given the constraints, the safest approach is to state that the term \"regimen de proyecto\" is not explicitly",
+      "bad_response": "Wait, the context given is about Article 27, but the question is about Article 34. The user's question is about the project",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0022",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.865,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:44:29.685425",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué significa el término 'ias' según el texto proporcionado?",
+      "good_response": "El término **\"ias\"** no se encuentra especificado ni mencionado en el contexto proporcionado. La información disponible se refiere a conceptos como el **cursado de la asignatura**, **exámenes aprobados y desaprobados**, **devoluciones de exámenes**, **recuperación de exámenes** y **turnos de exámenes finales**, según los artículos 27, 28 y 29 del texto.  \n\nSi el usuario intencionalmente escribió **\"ias\"** (posiblemente un error ortográfico o una abreviatura), podría referirse a uno de los siguientes términos comunes relacionados con el proceso académico:  \n1. **Exámenes** (como *exámenes aprobados* o *exámenes desaprobados*).  \n2. **Calificaciones** (referidas en el artículo 28 sobre",
+      "bad_response": "\"o del cursado de la asignatura. Artículo 27º: El personal docente de la asignatura deberá mostrar los",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0024",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "intermediate",
+        "query_score": 0.8500000000000001,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:47:44.056140",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿En qué consiste la modality de promoción mencionada en el artículo 31? ¿Quién debe evaluar este proceso?",
+      "good_response": "La **modality de promoción** mencionada en el artículo 31 se refiere al proceso mediante el cual los estudiantes son evaluados para determinar su derecho a pasar a la siguiente etapa académica, generalmente tras una instancia de recuperación o revalidación. Este proceso implica la revisión de sus resultados en exámenes y evaluaciones, asegurando que cumplan con los requisitos establecidos para la promoción.  \n\n**¿Quién debe evaluar este proceso?**  \nEl **docente a cargo de las asignaturas** es el encargado de evaluar el proceso de promoción. Según el contexto, esta figura tiene respons",
+      "bad_response": "So, the user is asking about the modality of promotion in Article",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0024",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "expert",
+        "query_score": 0.7549999999999999,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:48:08.668218",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué condición es necesaria para ser codirectora de un trabajo final de carrera según el artículo 44?",
+      "good_response": "Según el contexto proporcionado, no se menciona específicamente la condición necesaria para ser codirectora de un trabajo final de carrera en relación con el artículo 44. Sin embargo, se pueden inferir algunos puntos relacionados con roles de dirección académica basándose en los artículos mencionados:\n\n1. **Responsabilidad de registro y comunicación de calificaciones**:  \n   Artículo 28º indica que el docente a cargo de las asignaturas debe informar y registrar las calificaciones en el sistema correspondiente, lo cual implica que el rol de codirector requiere competencias en gestión de datos académicos y comunicación con los estudiantes.\n\n2. **Organización de exámenes finales**:  \n   Artículo 29º establece que los turnos de exámenes finales deben fijarse según el calendario académico aprobado. Esto sugiere que la codirectora debe tener habilidades en coordinación y organización temporal, clave para gestionar eventos académicos.\n\n3",
+      "bad_response": "the context provided is about Article 27. The user might be asking about the necessary condition, which in the context is about exams, but the article 44 is not mentioned. The user might be referring",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0027",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 0.8,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:52:54.583666",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Cuáles son los requisitos específicos para ser codirector de un trabajo final de carrera si uno no es docente pero tiene experiencia en investigación?",
+      "good_response": "**Respuesta:**  \n\nLos requisitos específicos para ser codirector de un trabajo final de carrera, especialmente en un entorno donde el candidato no es docente pero posee experiencia en investigación, **no están detallados claramente en el contexto proporcionado**. Sin",
+      "bad_response": "irements, not the units. The user might be a student or a professional looking to apply for a supervisory role. The answer should be specific, but the context is a bit vague. The answer should be that",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0027",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:53:19.047111",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "Según el artículo 48º, ¿en qué situación puede participar una directora de trabajo sin formarse como miembro del Tribunal Evaluador?",
+      "good_response": "Según el **Artículo 48º** del texto proporcionado, una **directora de trabajo** (título de grado o posgrado) **no puede formar parte del Tribunal Evaluador**, pero **puede intervenir en el momento de la discusión de la nota final** si ha estado **presente durante el desarrollo de toda la exposición** de manera **presencial o virtual**, con **voz pero sin voto**.  \n\nEste derecho de intervención se basa en la condición de que la directora de trabajo haya participado integralmente en la exposición, lo que permite que contribuya a la evaluación sin asumir el rol de miembro del tribunal. Es importante destacar que esta participación está limitada a la **discusión final** de la nota, no a otros aspectos del proceso evaluativo.  \n\nEjemplo práctico: Si una directora de trabajo asistió a todas las sesiones de presentación, revisión y discusión de la tesis",
+      "bad_response": "Wait, the question is about Article 48º, but the context only mentions Article 47º. The user might have a typo, but let's assume the context is about Article 47º. The question is about a director of work (maybe a director of a work, like a director of a project or a director of a work in a company) participating in the Tribunal",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0029",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:56:09.494380",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Quién tiene la responsabilidad de diseñar el Tribunal Evaluador según el artículo 47º?",
+      "good_response": "Según el artículo 47º del texto proporcionado, **la responsabilidad de diseñar el Tribunal Evaluador corresponde al Consejo Directivo**. Este órgano se encarga de emitir la **Resolución del Consejo Directivo**, que establece las normas y procedimientos para la formación y organización del Tribunal Evaluador. \n\nAdemás, el Consejo Directivo también tiene la función de **garantizar la correcta constitución y funcionamiento** del Tribunal mediante mecanismos de control, como el cumplimiento de los requisitos técnicos (por ejemplo, la presencia virtual de uno de los miembros). Aunque la Unidad Académica es responsable de implementar estos mecanismos, su rol no incluye la designación directa del Tribunal Evaluador, sino más bien la supervisión y ejecución de sus procesos.\n\nEn resumen, **el Consejo Directivo es el autoridad legal que asigna y gestiona el Tribunal Evaluador**, mientras que la Unidad Académica se enfoca en la implementación operativa de sus disposiciones",
+      "bad_response": "ón del Consejo Directivo. So the answer is the Consejo Directivo. I need to make sure I don't include extra information. The user wants a very brief response, so I'll just state the Consejo Directivo.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0029",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:56:40.025613",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "En qué situación se considere el trabajo final como 'desaprobado' según el texto proporcionado?",
+      "good_response": "Alternatively, maybe the \"trabajo final\" refers to the final exam. If the final exam is not passed, then the work is considered desaprobado. But the articles don't mention the work being desaprobado; they talk about the exams. But the answer needs to reference the specific articles. Article 27 says that the teacher must show the exams passed and failed. The failed exams are to",
+      "bad_response": "so the answer is straightforward: when the exams are failed. The text is in Spanish, so the answer in Spanish is the key. The user provided the text, so the answer is based on that. The answer is that",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0030",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:58:14.360387",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué sucede si un estudiante no cumple con los plazos establecidos para entregar su trabajo final según la ordenanza?",
+      "good_response": "Según el contexto proporcionado, no se menciona explícitamente qué consecuencias se aplican a un estudiante que no cumpla con los plazos establecidos para entregar su trabajo final. Sin embargo, se puede inferir algunas implicaciones basándonote en los puntos clave del texto:\n\n1. **Regularización del cursado**: El tiempo de validación de las asignaturas es de tres años a partir de su aprobación, lo que sugiere que el cumplimiento de plazos es relevante para la evaluación académica. Si un estudiante no entrega su",
+      "bad_response": "nslation error. The user is asking for a brief answer, so I need to focus on the key point: deadlines for the final project and the consequences if the student fails to meet them according to the city",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0030",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T13:58:45.515882",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué es una causas de ausencia justificada según el artículo 52º?",
+      "good_response": "Según el contexto proporcionado, **no se menciona específicamente la definición de \"causas de ausencia justificada\" en relación con el artículo 52º**. Sin embargo, basándome en el contenido del texto, puedo ofrecer una explicación general sobre lo que podría significar este término en un entorno académico, considerando las normas relacionadas con la evaluación y la participación estudiantil:\n\nEn un contexto educativo, una **causa de ausencia justificada** se refiere a una situación en la cual un estudiante no puede asistir a una actividad académica (como un examen, clase o talleres) debido a un motivo válido y autorizado. Estos motivos suelen incluir situaciones como enfermedades médicas, emergencias familiares, problemas de",
+      "bad_response": "s about a justifiable cause of absence. The user might be confused because the context is about exams, but the question is about absence. I need to answer based on the context provided, which is about",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0031",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.7550000000000001,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.0,
+        "quality_difference": 1.0,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:00:50.708509",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de certificados se mencionan como requisito para acceder a alguna acción educativa según el artículo 50?",
+      "good_response": "Según el contexto proporcionado, **no se menciona ningún tipo específico de certificados** relacionados con requisitos para acceder a acciones educativas bajo el artículo 50. El texto enfatiza aspectos como la capacitación del docente, la validación del cursado, las fechas de exámenes y la publicidad de los mismos, pero **no incluye información sobre certificados ni criterios de evaluación académica** asociados a este artículo.  \n\nSi el artículo 50 se refiere a normas específicas de certificación o requisitos académicos, podría estar fuera del ámbito del documento actualmente disponible. Para obtener una respuesta precisa, se recomienda revisar el",
+      "bad_response": "the question is in Spanish as well. The user's context is about the regularización, but the question is about certificates. The user's context is about the regularización, which is the approval of the",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0032",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.895,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:02:17.057430",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de certificados se mencionan como obligatorios según el artículo 50?",
+      "good_response": "Según el contexto proporcionado, **no se menciona ningún tipo específico de certificados obligatorios** relacionados con el artículo 50. El texto se centra en aspectos como la responsabilidad del docente, la regularización del cursado (con validad de tres años), horarios de exámenes (julio-agosto para el primero y diciembre-febrero-marzo para el segundo), y requisitos para los exámenes finales (públicos y en espacios determinados por la Unidad Académica).  \n\nNo hay información sobre certificados, diplomas, o documentos oficiales exigidos como obligatorios bajo el artículo 50. Si el artículo 50 refiere a un tema diferente (como requisitos académicos,",
+      "bad_response": "ovided is about the teacher's responsibilities and the regularización (regulation) of courses, but the question is about certificates. The user's question is in Spanish, but the context is in Spanish.",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0032",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "factual",
+        "difficulty_level": "intermediate",
+        "query_score": 0.865,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:02:42.206981",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de documentos pueden recibir estudiantes universitarios según los artículos citados?",
+      "good_response": "Según los artículos citados, los estudiantes universitarios pueden recibir **diplomados** como documento oficial de graduación, según los criterios establecidos en el proceso académico. Los artículos mencionan",
+      "bad_response": "Wait, the question is about documents that students can receive, but the context is about the diploma's issuance. The user is asking about",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0033",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.7949999999999999,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:04:13.632629",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "Según el texto, ¿qué ocurre si hay incongruencia entre los planes de estudio de dos carreras durante el reconocimiento de equivalencias?",
+      "good_response": "Según el texto proporcionado, si existe **incongruencia entre los planes de estudios de dos carreras** durante el reconocimiento de equivalencias, la **asignatura en cuestión será dejada en suspenso** hasta que la estudiante complete las exigencias necesarias para cumplir con los requisitos del plan de correlatividades. Este procedimiento se especifica en **Artículo 56º**, donde se menciona que las equivalencias solo serán otorgadas sobre **asignaturas o cursadas aprobadas** del plan de estudios de la carrera de origen.  \n\nEn caso de no cumplirse las condiciones de correlatividad, la **estudiante deberá completar las exigencias requeridas**, y la situación se registrará como tal en la **Resolución Decanal**. Esto implica que la asignatura permanecerá en estado de suspensión hasta que se resuelva el conflicto, garantizando que el",
+      "bad_response": "Hmm, the text is a bit confusing. The user's context is a bit unclear, but the main point is that during equivalence recognition, if there's a discrepancy between the study plans of two courses, what",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0034",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.2,
+        "quality_difference": 0.7,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:06:12.119835",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué tipo de equivalencias se admiten según el artículo 56º del texto?",
+      "good_response": "Según el contexto proporcionado, el artículo **63º** menciona que el reconocimiento de equivalencias de asignaturas aprobadas por un estudiante de la Universidad Nacional del Comahue en otra institución de educación superior está restringido a las asignaturas incluidas en el **Contrato de estudios firmado entre ambas instituciones**. Esto implica que solo se admiten equivalencias de asignaturas cuyos contenidos hayan sido formalmente acordados y registrados en dicho contrato. \n\n### Detalles clave:\n1",
+      "bad_response": "mic equivalences approved by the student and recognized by another institution. The answer should be concise, so I need to mention the type of equivalences and the context of the recognition. The user",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0034",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "intermediate",
+        "query_score": 0.815,
+        "good_response_score": 1.0,
+        "bad_response_score": 0.6,
+        "quality_difference": 0.4,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:06:42.690158",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    },
+    {
+      "query": "¿Qué ocurre con una asignatura si no se cumplen las correspodencias establecidas en el Plan de Correlatividades?",
+      "good_response": "Si no se cumplen las correspodencias establecidas en el **Plan de Correlatividades** durante el reconocimiento de equivalencias entre dos planes de estudio (uno de la carrera de origen y otro de la carrera de destino), la asignatura en cuestión será **dejada en suspenso** hasta que la estudiantes complete las exigencias necesarias para su validación. Esta medida se documentará en una **Resolución Decanal**, que será parte de la normativa aplicable al proceso de equivalencia.  \n\nDe acuerdo con el texto proporcionado:  \n1. **No se otorgan equivalencias de cursados ni de trabajos prácticos** ni otrasinstancias académicas, salvo cuando se cumplan las condiciones establecidas en el Plan de Correlatividades.  \n2. Si no se cumplen estas condiciones, la **asignatura queda en suspenso** y la estudiante deberá completar los requisitos previstos en el plan de estudios de la carrera de destino.  \n3. La decisión de suspender la asignatura será formalizada en una **Resolución Decanal**, que servirá como registro oficial de la situación.  \n\nEste procedimiento garantiza que solo se reconozcan las equivalencias basadas en asignaturas aprobadas y válidas en el plan de estudios de la carrera de origen, asegurando la coherencia curricular y el cumplimiento de los estándares educativos. En casos donde la equivalencia no se ajuste al Plan",
+      "bad_response": "might lead to the subject not being recognized. I should mention that the subject might not be approved or not transferable. I need to keep it brevemente, so no long explanations. The answer should be",
+      "metadata": {
+        "source_doc_id": "ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22_0035",
+        "source_file": "data\\documents\\ORDENANZA-273-18-con-Mod-Ord-634-20-y-990-22.pdf",
+        "generation_mode": "analytical",
+        "difficulty_level": "advanced",
+        "query_score": 0.845,
+        "good_response_score": 0.9,
+        "bad_response_score": 0.3,
+        "quality_difference": 0.6,
+        "search_results_count": 8,
+        "generation_timestamp": "2025-06-01T14:08:38.382275",
+        "ai_generated": true,
+        "pipeline_version": "advanced_v2.0_structured",
+        "validation_passed": true
+      }
+    }
+  ]
+}

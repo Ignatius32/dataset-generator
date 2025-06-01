@@ -1,0 +1,5 @@
+{
+  "dimension": 768,
+  "num_documents": 50,
+  "model": "nomic-ai/nomic-embed-text-v1.5"
+}
